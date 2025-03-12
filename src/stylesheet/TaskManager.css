@@ -1,0 +1,52 @@
+.Total {
+    background-color: #ADD8E6;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.Completed {
+    background-color: #90EE90;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.Pending {
+    background-color: #FFFFE0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.Progress {
+    background-color: #E6E6FA;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.todo-input {
+    width: 88%;
+}
+
+.showCompleted {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.taskCompleted {
+    text-decoration: line-through;
+    color: rgb(120, 120, 120);
+    font-style: italic;
+}
